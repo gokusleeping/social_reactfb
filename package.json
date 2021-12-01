@@ -8,12 +8,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.14.1",
+    "@spectrum-css/button": "^4.1.3",
+    "@spectrum-css/icon": "^3.0.9",
+    "@spectrum-css/page": "^3.0.8",
+    "@spectrum-css/typography": "^4.0.5",
+    "@spectrum-css/vars": "^4.3.0",
     "next": "12.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-router-dom": "^6.0.2",
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.3"
+    "eslint-config-next": "12.0.3",
+    "postcss": "^8.4.4"
   }
 }
