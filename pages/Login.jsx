@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from "react";
-import { Link, useHistory } from "react-router-dom";
+// import { Link, useHistory } from "react-router-dom";
 //import FirebaseContext from "../context/firebase"
-//import * as ROUTES from "../constants/routes"
+// import * as ROUTES from "./api/constants/routes";
 
 export default function Login() {
   //const history = useHistory();
@@ -68,8 +68,8 @@ export default function Login() {
         <p className="text-left w-full">
           Don't have an account?{` `}
           {/* <Link to={ROUTES.SIGN_UP} className="font-bold text-blue-medium">
-							Sign up
-						</Link> */}
+            Sign up
+          </Link> */}
         </p>
       </div>
     </div>
